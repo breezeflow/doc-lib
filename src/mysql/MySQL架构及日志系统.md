@@ -1,7 +1,7 @@
 [[TOC]]
 ## 基础架构
 
-![mysql基础架构](/images/mysql/mysql-architechture.jpg)
+![mysql基础架构](/_images/mysql/mysql-architechture.jpg)
 
 MySQL大致分为两层，Server层和存储引擎层
 
@@ -40,7 +40,7 @@ Server层：
 
 ### 一次更新操作
 
-![mysql-log](/images/mysql/mysql-log.jpg)
+![mysql-log](/_images/mysql/mysql-log.jpg)
 
 **大致流程说明**
 
@@ -129,7 +129,7 @@ statement格式的binlog可能会导致主备不一致。row格式的缺点是�
 
 假设A为主库（读写），B为备库（只读）
 
-![mysql主从复制](/images/mysql/mysql-binlog-backup.jpg)
+![mysql主从复制](/_images/mysql/mysql-binlog-backup.jpg)
 
 1. 在备库 B 上通过 change master 命令，设置主库 A 的 IP、端口、用户名、密码，以及要从哪个位置开始请求 binlog，这个位置包含文件名和日志偏移量
 2. 在备库 B 上执行 start slave 命令，这时候备库会启动两个线程， io_thread 和 sql_thread。
