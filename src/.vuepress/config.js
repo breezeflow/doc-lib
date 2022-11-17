@@ -1,7 +1,6 @@
 module.exports = {
-    port: "3000",
     title: "DocLib",
-    base: "/doc-lib",
+    base: "/doc-lib/",
     markdown: {
         lineNumbers: true,
         anchor: {permalink: false},
