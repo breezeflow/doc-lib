@@ -1,5 +1,5 @@
 {
-  "name": "DocLib",
+  "name": "doc-lib",
   "version": "1.0.0",
   "main": "index.js",
   "author": "andy",
@@ -7,9 +7,9 @@
   "devDependencies": {
     "vuepress": "^1.9.7"
   },
+  "repository": "https://github.com/breezeflow/doc-lib",
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src"
-  },
-  "dependencies": {}
+  }
 }
