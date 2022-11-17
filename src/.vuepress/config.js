@@ -1,15 +1,11 @@
 module.exports = {
     port: "3000",
     title: "DocLib",
-    dest: "dest",
     base: "/doc-lib",
     markdown: {
         lineNumbers: true,
         anchor: {permalink: false},
-        // markdown-it-toc 的选项
         toc: {includeLevel: [1]},
-        extendMarkdown: md => {
-        }
     },
     head: [
         // ico
@@ -26,7 +22,7 @@ module.exports = {
     ],
     plugins: [['vuepress-plugin-code-copy', true]],
     themeConfig: {
-        repo: "https://github.com/breezeflow/",
+        repo: "https://github.com/breezeflow/doc-lib",
         editLinks: false,
         editLinkText: "",
         // lastUpdated: "最近更新",
