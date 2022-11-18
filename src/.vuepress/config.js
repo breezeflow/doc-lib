@@ -12,14 +12,11 @@ module.exports = {
         // meta
         ["meta", {name: "robots", content: "all"}],
         ["meta", {name: "author", content: "andy"}],
-        ["meta", {
-            name: "keywords",
-            content: ""
-        }],
+        ["meta", {name: "keywords", content: ""}],
         ["meta", {name: "apple-mobile-web-app-capable", content: "yes"}],
         ["meta", {name: "apple-mobile-web-app-status-bar-style", content: "black"}],
     ],
-    plugins: [['vuepress-plugin-code-copy', true]],
+    plugins: [],
     themeConfig: {
         repo: "https://github.com/breezeflow/doc-lib",
         editLinks: false,
@@ -35,5 +32,12 @@ module.exports = {
         sidebar: "auto",
         sidebarDepth: 1,
         searchMaxSuggestions: 5
+    },
+    configureWebpack: {
+        resolve: {
+            alias: {
+                '@img': '/src/.vuepress/public/images'
+            }
+        }
     }
 };
