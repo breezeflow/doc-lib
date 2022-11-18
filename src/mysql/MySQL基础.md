@@ -43,4 +43,28 @@ show create table table_name;
 
 ```
 
+## 常用函数
+
+```shell
+# CONVERT
+select CONVERT(100 / 3, DECIMAL(10, 2));
+
+```
+
+### 日期函数
+
+```shell
+# 上个月最后一天
+select last_day(date_sub(now(), interval 1 month));
+
+# 上个月1号
+select date_add(curdate() - day(curdate()) + 1, interval -1 month);
+
+# 当前时间 距离 上个月最后一天 有多少天
+select DATEDIFF(now(),last_day(date_sub(now(), interval 1 month)));
+
+# 日期格式
+select DATE_FORMAT(now(), '%Y-%m-%d %H-%m-%s');
+```
+
 

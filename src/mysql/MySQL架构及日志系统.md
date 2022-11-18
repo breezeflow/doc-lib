@@ -42,7 +42,7 @@ Server层：
 
 ![mysql-log](~@img/mysql/mysql-log.jpg)
 
-**大致流程说明**
+**基本流程说明**
 
 1. Server层接收到客户端的更新SQL
 
