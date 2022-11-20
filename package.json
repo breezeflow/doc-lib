@@ -2,7 +2,7 @@
   "name": "doc-lib",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "andy",
+  "author": "Andy",
   "license": "MIT",
   "devDependencies": {
     "vuepress": "^1.9.7"
