@@ -2,6 +2,24 @@
 
 ## 基础SQL
 
+### CRUD
+
+```sql
+CREATE TABLE student (
+	`id` BIGINT UNSIGNED PRIMARY KEY auto_increment,
+	`name` VARCHAR ( 20 ) NOT NULL DEFAULT '' COMMENT '姓名',
+	`age` INT NOT NULL DEFAULT 0 COMMENT '年龄',
+	`class_id` INT NOT NULL DEFAULT 0 COMMENT '班级' 
+) ENGINE = INNODB AUTO_INCREMENT = 1 DEFAULT CHARSET = utf8  COMMENT = '学生表';
+```
+
+**注意**<br/>
+1. `utf8`与`utf8mb4`的区别
+
+[阿里巴巴Java开发手册](~@pdf/阿里巴巴Java开发手册1.3.pdf)
+
+### `Join`查询
+
 
 
 

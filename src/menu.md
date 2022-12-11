@@ -4,6 +4,7 @@
 
 1. [Java基础](/java/基础.md)
 2. [多线程编程](/java/多线程编程.md)
+3. [对象List排序工具类](/java/自定义对象数组的排序.md)
 
 ## [MySQL](/mysql/)
 
