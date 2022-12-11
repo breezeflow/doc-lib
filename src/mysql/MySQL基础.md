@@ -16,10 +16,7 @@ CREATE TABLE student (
 **注意**<br/>
 1. `utf8`与`utf8mb4`的区别
 
-[阿里巴巴Java开发手册](~@pdf/阿里巴巴Java开发手册1.3.pdf)
-
 ### `Join`查询
-
 
 
 
