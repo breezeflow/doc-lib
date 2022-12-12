@@ -10,7 +10,7 @@ CREATE TABLE student (
 	`name` VARCHAR ( 20 ) NOT NULL DEFAULT '' COMMENT '姓名',
 	`age` INT NOT NULL DEFAULT 0 COMMENT '年龄',
 	`class_id` INT NOT NULL DEFAULT 0 COMMENT '班级' 
-) ENGINE = INNODB AUTO_INCREMENT = 1 DEFAULT CHARSET = utf8  COMMENT = '学生表';
+) ENGINE = INNODB AUTO_INCREMENT = 1 DEFAULT CHARSET = utf8  COMMENT = '学生表';
 ```
 
 **注意**<br/>
@@ -60,6 +60,7 @@ show create table table_name;
 
 ## 常用函数
 
+### 转换函数
 ```shell
 # CONVERT
 select CONVERT(100 / 3, DECIMAL(10, 2));
