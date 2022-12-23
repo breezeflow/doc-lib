@@ -95,7 +95,7 @@ yarn-error.log*
 ```shell
 # Github默认创建的主分区名是`main`
 git branch -M main
-# 注意实用SSH的方式
+# 注意使用SSH的方式
 git remote add origin git@github.com:breezeflow/blog.git
 git push -u origin main
 ```
