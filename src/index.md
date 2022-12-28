@@ -3,7 +3,7 @@ home: true
 lang: zh-CN
 heroText: Document Library
 heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: Code Note
+tagline: Tech Note
 actionText: Start →
 actionLink: /menu
 ---
