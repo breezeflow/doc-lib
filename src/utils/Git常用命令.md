@@ -70,7 +70,6 @@ git log
 
 # 查看历史提交，除基本信息外，详细的变化
 git log --stat
-
 ```
 
 **撤销本次commit，重回暂存区**
@@ -94,6 +93,9 @@ git remote -v
 
 # 更改远端仓库地址
 git remote set-url origin git@github.com:breezeflow/doc-lib.git
+
+# 删除远端分支
+git remote remove origin
 ```
 
 
