@@ -1,11 +1,13 @@
 [[TOC]]
 
 ## 标签
-[<u>Java</u>](/java/index.md) | 
-[<u>MySQL</u>](/mysql/index.md) | 
-[<u>分布式</u>](/分布式/index.md) |
-[<u>前端</u>](/web/index.md) |
-[<u>工具</u>](/utils/index.md) |
+
+[Java](/java/index.md) |
+[MySQL](/mysql/index.md) |
+[分布式](/distributed/index.md) |
+[前端](/web/index.md) |
+[工具](/utils/index.md) |
+[其他](/others/index.md) 
 
 
 
